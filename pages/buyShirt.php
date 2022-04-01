@@ -462,7 +462,7 @@
         <hr />
       <div class="offcanvas-body cart_body">
         <a href="" class="container_card_product">
-        <a href="" class="link_text">Remover</a>
+     
           <div class=" d-flex">
             <div class="cart_img_product"><img
                 src="../assets/images/camisas/257139328_126851229744515_2923407250030929456_n.webp.jpg" alt=""></div>
@@ -470,7 +470,7 @@
 
               <div class="cart_name_product">Camisa do Paris San-German Branca</div>
               <div class="cart_price_product">Preço: 120,00</div>
-              
+              <a href="" class="link_text">Remover</a>
             </div>
           </div>
         </a>
