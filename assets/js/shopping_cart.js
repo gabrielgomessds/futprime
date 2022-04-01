@@ -13,7 +13,7 @@ let infoShirts = {
    "id": idShirt,
    "name": nameShirt,
    "price": priceShirt,
-   "img": symbol_shirt,
+   "img": symbol_shirt, 
    "url": urlShirt,
 }
 
