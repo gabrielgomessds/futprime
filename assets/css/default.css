@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+:root{
+    --color-red:   #cf2b1e;
+    --color-green: #27ae60;
+    --color-blue:  #2f80ed;
+    --color-purple:#9b51e0;
+    --color-orange:#fca506;
+    --color-white: #FFF;
+    --color-gold:  gold;
+    --color-light: #e0e0e0;
+    --color-darkgary: #4f4f4f;
+    --color-darkblack: #181818;
+    --color-gray: #828282;
+    --color-whitesmoke: #f2f2f2;
+    --color-darkorange: #f26100;
+    --color-darklategray: #232f3e;
+    --color-midnightblue: #1e3056;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:var(--body-theme);
+    --body-theme: #FFF;
+    --menu-theme: #232f3e;
+    --slide-theme:  #e0e0e0;
+    --contact-theme:  #232f3e;
+    --text-theme: #FFF;
+    --text-card: #232f3e;
+    --theme-bar: #fca506;
+    --content-card: #FFF;
+    --active-orange: #f26100;
+    --border-theme: #e0e0e0;
+    --form-theme: #efefef;
+    --area-cart:#FFF;
+    --shadow-bar: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   
+}
+/* ================== MODO NOTURNO ============ */
+body.dark-theme{
+    --body-theme: #131921;
+    --menu-theme: #f26100;
+    --slide-theme: #4f4f4f;
+    --contact-theme:  #f26100;
+    --text-theme: #000;
+    --text-card: #f26100;
+    --theme-bar: #232f3e;
+    --content-card:#0f0f0f;
+    --active-orange: #fca506;
+    --border-theme: #232f3e;
+    --area-cart: #232f3e;
+    --form-theme: #363636;
+    --shadow-bar: rgb(192,192,192) 0px 0px 10px 0px;
+}

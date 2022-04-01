@@ -1,0 +1,114 @@
+﻿##BANCO DE DADOS##
+
+**CLIENTES**
+- id
+- nome completo
+- email
+- senha
+- sexo 
+- telefone
+- CPF 
+- foto
+
+--------------------------------------
+
+**CAMISA**
+- nome
+- tamanho
+- modelo
+- quantidade
+- imagens
+- preco
+- desconto
+- frete
+- parcelamento
+- juros
+- descricao
+
+---------------------------------------
+
+**ADMINS**
+- nome completo
+- email
+- senha
+- foto
+---------------------------------------
+
+**FUNCIONARIO**
+- nome completo
+- email
+- senha
+- foto
+
+---------------------------------------
+
+
+**CONTATOS**
+- nome completo
+- email
+- telefone
+- mensagem
+- data
+
+----------------------------------------
+
+
+**VENDAS**
+- id
+- id_cliente
+- id_camisa
+- tamanho
+- customizacao
+- nome_cima
+- numero
+- nome_embaxo
+- quantidade_camisa
+- quantidade_customizada
+- modelo
+- preco_camisa
+- desconto
+- CEP
+- endereco
+- tempo_entrega
+- preco_frete
+- preco_final
+- forma_pagamento
+- situacao_pagamento
+- garantia
+- data
+
+
+-----------------------------
+
+**COMENTARIOS**
+- id
+- id_camisa
+- id_cliente
+- comentario
+- data
+
+------------------------------------------
+
+**AVALIACAO**
+- id
+- id_camisa
+- id_cliente
+- avaliacao
+- titulo
+- mensagem
+- data
+
+----------------------------------------
+
+**RECLAMAÇÕES**
+- id 
+- id_cliente
+- id_camisa
+- titulo
+- mensagem
+- situacao
+
+----------------------------------------
+
+**AD**
+- email

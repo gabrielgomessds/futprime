@@ -1,0 +1,662 @@
+@import url('default.css');
+.inputFormDefault{
+    background-color: transparent !important;
+    color: var(--contact-theme) !important;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+}
+.input_form{
+    padding: 5px;
+    padding-left: 10px;
+}
+.button_default{
+    background-color: var(--color-darkorange);
+    color: var(--color-white);
+    border: 2px solid var(--color-darkorange);
+}
+.button_default:hover{
+    background-color: transparent;
+    color: var(--color-darkorange);
+}
+.button_gold{
+    background-color: #f2c94c;
+    color: var(--color-darklategray);
+    border: 1px solid #f2c94c;
+}
+.button_gold:hover{
+    background-color: goldenrod;
+    color: var(--color-darklategray);
+}
+.text_defualt{
+   color: var(--text-card);
+}
+/* ================== CONTAINER TOP =========== */
+
+.bar_ad a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+.content_bar{
+    background-color: var(--theme-bar);
+}
+.container_top{
+    background-color: var(--color-darkorange);
+    color: var(--color-darklategray);
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 16px;
+}
+.bg_orange{
+    background-color: var(--color-orange);
+}
+.color_orange{
+    color: var(--color-darkorange);
+}
+.bg_darkorange{
+    background-color: var(--color-darkorange);
+}
+.input-search{
+    cursor: pointer;
+}
+.icon_top{
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 10px;
+}
+.icon_top:hover{
+    background-color: #f26100;
+    
+}
+/* ================== BARRA DE PESQUISA ======== */
+.bar_fixed{
+    display: none;
+    padding-bottom: 15px;
+}
+.input_search{
+    width: 55%;
+    margin-right: 15px;
+}
+.logo{
+    margin-right: 70px;
+}
+.icons_top{
+    margin-left: 40px;
+}
+/* ================== MENU ===================== */
+.nav-pills > li > a{
+    color: var(--menu-theme);
+    font-size: 20px;
+}
+.nav-pills > li > a > i{
+    font-size: 23px;
+}
+.nav-pills > li > a:hover{
+    color: var(--active-orange);
+}
+.nav-pills > li > a.active{
+    background-color: var(--color-darkorange) !important;
+    font-weight: bold;
+}
+.menu_home{
+    border-bottom: 1px solid var(--border-theme);
+}
+/* ================= SLIDE SHOW =============== */
+.img-slide{
+    width: 400px;
+    height: 400px;
+}
+.slide{
+    background-color: var(--slide-theme);
+}
+.text-slide{
+    color: var(--color-darkorange);
+    padding: 50px;
+    font-size: 32px;
+}
+.icon-slide i{
+    color: var(--color-darkorange);
+    font-size: 80px;
+}
+/* ======================== CARDS AREA ================ */
+.line{
+    border-bottom: 4px solid var(--color-darkorange);
+    width: 10%;
+}
+.card_product{
+    background-color: var(--content-card);
+    color: var(--text-card);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+.card_content{
+    width: 18rem;
+    height:35rem;
+    cursor: pointer;
+}
+
+.card_button{
+    border: 2px solid var(--color-darkorange);
+    color: var(--color-white);
+}
+.card_button:hover{
+    background-color: transparent;
+    color: var(--color-darkorange);
+    border: 2px solid var(--color-darkorange);
+}
+.card_img{
+    width: 250px;
+    height: 250px;
+}
+.card_info{
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+.card_price{
+    height: 80px;
+    color: #f26100;
+    width: 100%;
+}
+.price_promotion{
+    height: 20px;
+}
+.promotion{
+    width: 100%;
+    height: 30px;
+}
+.content_promotion{
+    background-color: var(--color-red);
+    color: var(--color-white);
+    text-align: center;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+/* ========================= CONTAINER ENVIO DE EMAIL ============================== */
+.container_email{
+    background-color: var(--color-darklategray);
+    width: 100%;
+    height: 440px;
+}
+.send_email{
+    width: 60%;
+}
+.input_send{
+    width: 100%;
+    padding: 7px 0px 7px 10px;
+    font-size: 17px;
+}
+.button_send{
+    background-color: var(--color-darkorange);
+    border: none;
+    color: var(--color-white);
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.icon_send{
+    background-color: #f26100;
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+/* ======================== FORMULARIO DE CONTATO ============== */
+.img_contact img{
+    width: 450px;
+    height: 450px;
+    margin-right: 120px;
+}
+.form_contact{
+    width: 500px;
+}
+.form_contact input[type="text"],
+.form_contact textarea{
+    background-color: #efefef;
+}
+.label_form{
+    color: #f26100;
+}
+/* ========================= FOOTER =================== */
+.footer{
+    background-color: var(--color-darklategray);
+    height: 30%;
+}
+.icons_footer{
+    cursor: pointer;
+}
+.icons_footer a{
+    color: var(--color-darkorange);
+}
+.icons_footer i:hover{
+    color: var(--color-orange);
+}
+.menu_footer{
+    margin-right: 50px;
+}
+.menu_footer ul li{
+    list-style: none;
+}
+.menu_footer ul li a{
+    text-decoration: none;
+}
+.menu_footer ul li a:hover{
+    text-decoration: underline;
+}
+.bar_ad{
+    color: var(--color-white);
+    display: block;
+}
+.forma_pagamento i{
+    cursor: pointer;
+}
+.forma_pagamento i:hover{
+    color: var(--color-darkorange);
+}
+.icon_menu{
+    display: none;
+}
+.menu_mobile{
+    display: none;
+}
+
+/* ===================== FORMULARIO DE CADASTRO DE CLIENTE ======================= */
+.form_signup{
+    background-color: var(--form-theme);
+    width: 60%;
+}
+.select_radio:checked{
+    background-color: var(--color-darkorange);
+    border-color: var(--color-orange);
+    box-shadow: none;
+}
+/* ====================== ÁREA DA COMPRA DE CAMISA =============================== */
+.accordion-item:first-of-type .accordion-button{
+    background-color: var(--form-theme) !important;
+    border: 1px solid var(--border-theme) !important;
+    color: var(--text-card);
+}
+.collapsing{
+    background-color: var(--form-theme) !important;
+    border: 1px solid var(--border-theme) !important;
+    color: var(--text-card);
+}
+.cardQuantCustomize{
+    background-color: transparent !important;
+    border: 1px solid var(--border-theme);
+}
+.formQuant{
+    background-color: transparent !important;
+    border: none !important;
+    color: var(--text-card);
+}
+.areaImgShirts{
+    display: flex;
+    flex-direction: row;
+}
+.positionShirts{
+    display: flex;
+    flex-direction: column;
+}
+.open_customize{
+    background-color: var(--form-theme) !important;
+    border: 1px solid var(--border-theme);
+    color: var(--text-card);
+}
+.link_text{
+    color: var(--color-darkorange);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+.link_text:hover{
+    color: var(--color-orange);
+}
+.info_shirt{
+    color: var(--text-card);
+}
+.img_shirt{
+    width: 500px;
+}
+.btn_size_shirt{
+    background-color: transparent !important;
+    color: var(--color-darkorange);
+    border: 1px solid var(--color-darkorange);
+}
+.btn_size_shirt:hover{
+    color: var(--color-orange);
+    border: 1px solid var(--color-orange);
+}
+
+.size_shirt:checked + label{
+    background-color: var(--color-darkorange) !important;
+    color: var(--color-white);
+    outline: none !important;
+    
+}
+.options_shirt:checked + label{
+    border: 2px solid var(--color-darkorange);
+    outline: none;
+}
+.border_line{
+   border-bottom: 2px solid var(--border-theme);
+   width: 90%;
+   margin: 20px 0px;
+}
+/* --------------------------- CHECKBOX ----------------------------------------- */
+
+.label_checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.label_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  border: 2px solid var(--color-darklategray);
+}
+
+
+.label_checkbox input:checked ~ .checkmark {
+  background-color: var(--color-darkorange);
+   border: 2px solid var(--color-darkorange);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.label_checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.label_checkbox .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 9px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+/* --------- Editar camisa ---------------- */
+.customizeShirt{
+    position: absolute;
+    display: none;
+    margin-top: 110px;
+    margin-left: 150px;
+    text-align: center;
+}
+.inputCustomizeOnly{
+    width: 70px;
+    margin: 0px 3px;
+    height: 25px;
+}
+.edit_up{
+    width: 200px;
+    height: 42px;
+    font-size: 30px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.edit_center{
+    width: 200px;
+    font-size: 140px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.edit_down{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.btnAreaCustomize{
+    padding: 15px;
+    font-size: 1.3vw;
+}
+
+/* ===================== ÁREA DO CARRINHO DE COMPRAS ================= */
+.areaShoppingCart{
+    background-color: var(--area-cart);
+    color: var(--text-card);
+}
+.areaShoppingCart button{
+    color: var(--text-card) !important;
+}
+.closeAreaShoppingCart{
+    background-color: transparent;
+    border: 0px;
+}
+.closeAreaShoppingCart i{
+    font-size: 32px;
+}
+.closeAreaShoppingCart i:hover{
+    color: var(--color-orange);
+}
+
+/* ----------------------------------------------------------- */
+.container_card_product{
+    text-decoration: none;
+    color: var(--color-midnightblue);
+}
+.container_card_product:hover{
+    color: var(--active-orange);
+}
+.cart_img_product img{
+    width: 80px;
+    height: 80px;
+}
+.cart_info_product{
+    margin-left: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ===================== REPONSIVIDADE ======================= */
+
+/* ----------- Ajuste no customizar de camisa ---------------- */
+@media screen and (max-width:1200px) {
+    .customizeAreaShirt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+}
+
+/* ------------- Ajuste de container -------------------------- */
+
+@media screen and (max-width: 860px) {
+    .content_slide{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-slide{
+        height: 150px;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .img-slide{
+        width: 500px;
+        height: 170px;
+    }
+    .icon-slide i{
+        font-size: 50px;
+    }
+
+    .btnAreaCustomize{
+        padding: 5px;
+        font-size: 14px;
+    }
+   
+}
+@media screen and (max-width: 890px){
+    .content_top{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icons_top{
+        display: flex;
+    }
+    .input_search{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .areaImgShirts{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .positionShirts{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .img_shirt{
+        width: 500px;
+    }
+   
+    
+}
+@media screen and (max-width: 986px){
+    .img_contact{
+        display: none;
+    }
+    .form_signup{
+        width: 100%;
+    }
+    .name_shirt{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 780px) {
+    .areaEditShirt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .customizeShirt{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .img_shirt{
+        width: 400px;
+    }
+    .positionShirts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width: 605px) {
+   
+   .menu_home{
+       display: none;
+   }
+   .icon_menu{
+        font-size: 30px;
+        color: white;
+        display: flex;
+        cursor: pointer;
+       
+   }
+   .bar_ad .bx-football{
+       display: none;
+   }
+   .logo{
+       margin-right: 0px;
+       width: 100%;
+       margin-bottom: 20px;
+   }
+ 
+
+   /* ---------------- MENU REPONSIVO ------------------------ */
+
+   .menu_mobile{
+       height: 100vh;
+       width: 270px;
+       position: fixed;
+       top: 0;
+       right: -100%;
+       z-index: 999999;
+       background-color: var(--body-theme);
+       display: flex;
+       transition: .2s;
+   }
+   .menu_mobile ul li{
+       margin-left: 10px;
+   }
+   .menu_mobile li a{
+        color: var(--menu-theme);
+        font-size: 19px;
+        
+   }
+   .menu_mobile li a:hover{
+       color: var(--active-orange);
+   }
+   .menu_mobile li a.active{
+       border-radius: 6px;
+       background-color: var(--color-darkorange);
+       color: var(--active-orange);
+       font-weight: bold;
+   }
+   .menu_mobile li a.active{
+       color: var(--color-white);
+   }
+   .menu_mobile li a.active:hover{
+       color: var(--color-white);
+   }
+   .close_menuMobile{
+       color: var(--color-darkorange);
+       font-size: 35px;
+       cursor: pointer;
+   }
+   .close_menuMobile:hover{
+       color: var(--color-orange);
+   }
+   
+}
