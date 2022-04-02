@@ -462,7 +462,7 @@
         <hr />
       <div class="offcanvas-body cart_body">
         <a href="" class="container_card_product">
-
+        
           <div class=" d-flex">
             <div class="cart_img_product"><img
                 src="../assets/images/camisas/257139328_126851229744515_2923407250030929456_n.webp.jpg" alt=""></div>
